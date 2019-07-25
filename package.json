@@ -1,0 +1,21 @@
+{
+  "name": "command_line_translate",
+  "version": "1.0.0",
+  "bin": {
+    "clt": "index.js"
+  },
+  "description": "A translation tool running on the command line.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/Teemwu/command_line_translate.git",
+  "author": "Teemwu <2580144317@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "ora": "^3.4.0",
+    "request": "^2.88.0"
+  }
+}
