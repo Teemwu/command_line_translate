@@ -15,3 +15,8 @@ npm i command_line_translate -g
 
 ## 例子
 ![](screen.gif)
+
+## Q&A
+1、Windows 系统下，npm 运行时报错“因为在此系统上禁止运行脚本” ？
+
+管理员权限运行 “powershell”，执行 “ set-ExecutionPolicy RemoteSigned ” 语句，选择 “ Y ” 即可
